@@ -1,103 +1,45 @@
-/* style.css */
-
-/* Apply a clean font */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f9fafb;
-    color: #333;
-    padding: 20px;
-}
-
-/* Main heading */
-h1 {
-    color: #4f46e5; /* soft vibrant blue */
-    text-align: center;
-}
-
-/* Section headings (align left) */
+/* Section headers aligned left */
 h2, h3 {
-    color: #6366f1; /* lighter blue */
-    margin-top: 30px;
     text-align: left;
-}
-
-/* Project titles */
-h3 {
-    color: #4338ca; /* slightly deeper blue */
-}
-
-/* Paragraph text */
-p {
-    color: #555;
-    max-width: 600px;
-    margin: 10px auto;
-    line-height: 1.6;
-    text-align: center;
-}
-
-/* Center project content */
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.project-group {
+    color: #4f46e5;
+  }
+  
+  /* Projects grid layout */
+  .projects {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    width: 100%;
-}
-
-.project {
-    width: 45%;  /* Two projects per row */
-    margin: 10px 0;
-    padding: 20px 10px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Each project in 2x2 layout */
+  .project {
+    width: 48%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-sizing: border-box;
     text-align: center;
-}
-
-.project img {
+  }
+  
+  .project img {
     width: 100%;
-    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border: 2px solid rgb(126, 14, 201);
     border-radius: 8px;
-    margin-top: 10px;
-}
-
-a {  /* change the appearance of ALL links */
+    margin: 10px 0;
+  }
+  
+  .project p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Uniform link style */
+  a {
     text-decoration: none;
     color: purple;
-}
-
-.project p {
-    text-align: center;
-    margin: 15px;
-}
-
-/* Contact Section */
-.contact {
-    margin-top: 40px;
-}
-
-.contact p {
-    font-size: 1.1em;
-}
-
-/* Buttons inside Project Group */
-.buttons a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6366f1;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    margin: 10px 5px;
-    text-decoration: none;
-}
-
-.buttons a:hover {
-    background-color: #4f46e5;
-}
+  }
+  
