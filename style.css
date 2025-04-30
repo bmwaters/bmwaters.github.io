@@ -1,124 +1,109 @@
-/* style.css */
-
-/* Apply a clean font */
+/* General Page Styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f9fafb;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 100px;
+    font-size: 2.5em;
+    color: rgb(126, 14, 201);
+  }
+  
+  h2 {
+    margin-top: 50px;
     color: #333;
-    padding: 100px 20px 20px; /* top padding to make space for fixed nav */
-}
-
-/* Fixed Navigation Bar */
-.top-nav {
+  }
+  
+  /* Fixed Navigation Bar */
+  .top-nav {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    background-color: #f9fafb;
+    background-color: rgb(126, 14, 201);
+    display: flex;
+    justify-content: center;
+    z-index: 999;
     padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    text-align: center;
-}
-.nav-btn {
-    margin: 0 15px;
-    padding: 10px 20px;
-    background-color: #4f46e5;
+  }
+  
+  .nav-btn {
     color: white;
-    border: none;
-    border-radius: 10px;
     text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
-    transition: background-color 0.3s;
-}
-.nav-btn:hover {
-    background-color: #4338ca;
-}
-
-/* Main heading */
-h1 {
-    color: #4f46e5;
-    text-align: center;
-}
-
-/* Section headings */
-h2 {
-    color: #6366f1;
-    margin-top: 30px;
-}
-
-/* Project titles */
-h3 {
-    color: #4338ca;
-}
-
-/* Paragraph text */
-p {
-    color: #555;
-    max-width: 600px;
-    margin: 10px auto;
-    line-height: 1.6;
-    text-align: center;
-}
-
-/* Projects Layout */
-.projects {
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: #6e0cb9;
+  }
+  
+  /* Projects Container */
+  .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.project {
+    padding: 20px;
+  }
+  
+  /* Each Project */
+  .project {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
     background: white;
     border-radius: 25%;
-    text-align: center;
-}
-
-/* Project images */
-.project img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 10px auto;
     border: 2px solid rgb(126, 14, 201);
     display: block;
-    margin: auto;
-}
-
-/* Project paragraph */
-.project p {
+  }
+  
+  .project p {
     text-align: center;
     margin: 15px;
-}
-
-/* Image buttons */
-.image-button img {
-    border: 2px solid #4f46e5;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
-.image-button img:hover {
-    transform: scale(1.05);
-}
-
-/* Link styles */
-a {
+  }
+  
+  /* Contact and Sections */
+  .contact {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  a {
     text-decoration: none;
     color: purple;
-}
-
-/* Standard buttons inside projects section */
-.btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 15px;
-    background-color: #4f46e5;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Back to Top Button */
+  .btn {
+    background-color: rgb(126, 14, 201);
     color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    display: inline-block;
     border-radius: 10px;
     font-weight: bold;
-    transition: background-color 0.3s;
-}
-.btn:hover {
-    background-color: #4338ca;
-}
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #6e0cb9;
+  }
+  
