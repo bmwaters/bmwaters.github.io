@@ -3,24 +3,37 @@
   <head>
     <title>CSCE 190: Blythe Waters</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
+    <!-- Fixed Navigation Bar -->
+    <div class="top-nav">
+      <a class="nav-btn" href="#about">About Me</a>
+      <a class="nav-btn" href="#skills">Skills</a>
+      <a class="nav-btn" href="#projects">Highlighted Projects</a>
+      <a class="nav-btn" href="#contact">Contact Me</a>
+    </div>
+
     <h1>Blythe Waters</h1>
 
     <!-- About Section -->
-    <div class="about">
+    <div id="about" class="about">
       <h2>About Me</h2>
       <!-- Content coming soon -->
     </div>
 
     <!-- Skills Section -->
-    <div class="skills">
+    <div id="skills" class="skills">
       <h2>Skills</h2>
       <!-- Content coming soon -->
     </div>
 
     <!-- Projects Section -->
-    <div class="projects">
+    <div id="projects" class="projects">
       <h2>Highlighted Projects</h2>
 
       <!-- Navigation Buttons -->
@@ -45,27 +58,40 @@
           outside of the department’s page.</p>
       </section>
 
-      <!--Paper Prototype Assignment-->
+      <!-- Paper Prototype Assignment -->
       <section class="project">
-      <a href="https://youtube.com/shorts/vwQIY5dT3m4?feature=share"><h3> Prototype</h3></a>
-      <a href="https://youtube.com/shorts/vwQIY5dT3m4?feature=share"><img src="Images/paperprototype.png"></a>
-          <p> Here is our paper prototype of AskCocky </p>
+        <a href="https://youtube.com/shorts/vwQIY5dT3m4?feature=share">
+          <h3>Prototype</h3>
+        </a>
+        <a href="https://youtube.com/shorts/vwQIY5dT3m4?feature=share">
+          <img src="Images/paperprototype.png" alt="Paper Prototype">
+        </a>
+        <p>Here is our paper prototype of AskCocky</p>
       </section>
 
-    </div>
-      <!--Affinity Diagram Assignment -->
+      <!-- Affinity Diagram Assignment -->
       <section class="project">
-      <a href="Files/affinitydiagrams.pdf"><h3>Affinity Diagram</h3></a>
-      <a href="Files/affinitydiagrams.pdf"><img src="Images/affinitydiagramsimage.png"></a>
-          <p> This is our affinity diagrams for AskCocky </p>
-       </section>
-  
+        <a href="Files/affinitydiagrams.pdf">
+          <h3>Affinity Diagram</h3>
+        </a>
+        <a href="Files/affinitydiagrams.pdf">
+          <img src="Images/affinitydiagramsimage.png" alt="Affinity Diagram">
+        </a>
+        <p>This is our affinity diagram for AskCocky</p>
+      </section>
+    </div>
 
     <!-- Contact Section -->
-    <div class="contact">
+    <div id="contact" class="contact">
       <h2>Contact Me</h2>
       <p>Email: bmwaters@email.sc.edu<br>
-         LinkedIn: <a href="https://linkedin.com/in/blythe-waters-b315671b3" target="_blank">blythe-waters</a></p>
+         LinkedIn: <a href="https://linkedin.com/in/blythe-waters-b315671b3" target="_blank">blythe-waters</a>
+      </p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div style="text-align: center; margin-top: 40px;">
+      <a href="#top" class="btn">Back to Top</a>
     </div>
   </body>
 </html>
