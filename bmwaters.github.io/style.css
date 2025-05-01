@@ -4,65 +4,72 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
     color: #4f46e5;
-}
-
-/* Section headers left-aligned */
-h2, h3, h4 {
+  }
+  
+  /* Section headers left-aligned */
+  h2, h3 {
     text-align: left;
     color: #4f46e5;
-}
-
-/* Link styling */
-a {
+  }
+  
+  /* Link styling */
+  a {
     text-decoration: none;
     color: purple;
-}
-
-/* Project section container */
-.projects {
+  }
+  
+  /* Project section container */
+  .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the tiles */
+    justify-content: space-between;
     gap: 20px;
     margin-top: 20px;
-}
-
-/* Individual project card */
-.project {
-    width: 45%; /* Adjust width to fit two tiles per row */
+  }
+  
+  /* Individual project card */
+  .project {
+    width: 48%;
     background: white;
     border-radius: 25%;
     padding: 20px 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     box-sizing: border-box;
     text-align: center;
-}
-
-/* Images inside project cards */
-.project img {
+  }
+  
+  /* Tile headers (titles inside projects) aligned left */
+  .project h3 {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  /* Images inside project cards */
+  .project img {
     width: 300px;
     height: 300px;
     margin: 10px auto;
     border: 2px solid rgb(126, 14, 201);
     display: block;
-}
-
-/* Text inside project cards */
-.project p {
+  }
+  
+  /* Text inside project cards */
+  .project p {
     text-align: center;
     margin: 15px;
-}
-
-/* About, Skills, Contact Sections */
-.about, .skills, .contact {
+  }
+  
+  /* About, Skills, Contact Sections */
+  .about, .skills, .contact {
     margin: 40px 0;
-}
-
-.contact a {
+  }
+  
+  .contact a {
     color: purple;
-}
+  }
+  
