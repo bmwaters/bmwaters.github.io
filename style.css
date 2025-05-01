@@ -60,7 +60,7 @@ a {
 
 /* Text inside project cards */
 .project p {
-  text-align: center;
+  text-align: right;
   margin: 45px;
 }
 
