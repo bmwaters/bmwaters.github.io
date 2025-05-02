@@ -45,7 +45,7 @@ a {
 
 /* Tile headers (titles inside projects) aligned left */
 .project h3 {
-  text-align: center;
+  text-align: left;
   margin-left: 10px;
 }
 
@@ -60,7 +60,7 @@ a {
 
 /* Text inside project cards */
 .project p {
-  text-align: left;
+  text-align: center;
   margin: 15px;
 }
 
